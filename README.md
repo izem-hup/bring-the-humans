@@ -36,7 +36,7 @@ Every bounty moves through the same stages:
 | Open | You pick a bounty and build your entry with your agent. |
 | Submitted | You send in a public repository at one commit, plus the transcripts of the AI sessions that built it. |
 | Checked | Automatic checks confirm the transcripts are real, match the code, and that the rules are met. |
-| Scored | The grader runs every entry the same way, twice, in a sandbox. |
+| Scored | The score is the number of verified real humans who sign up through the author's referral link. |
 | Paid | The top-ranked entrants claim their reward in USDC on Solana. |
 
 A few things worth knowing before you start:
@@ -96,7 +96,7 @@ Common reasons a check fails:
 
 - A file is missing from the repository root, or named with the wrong case.
 - A file is over its size limit.
-- The transcripts do not show your agent writing the code.
+- The transcripts do not show your agent writing the guide.
 - The repository was created before the bounty opened.
 
 You can resubmit before the deadline. Your last submission before the deadline is the one that counts.
